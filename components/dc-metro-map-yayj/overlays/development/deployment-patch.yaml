@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-yayj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rsoaresd_org/release-e2e-deploy-tenant/appstudio/dc-metro-map-yayj@sha256:2c590330b3680694ad73658227f5254d867786829a9884a73047de2990a84578
+        name: my-nodejs
+        resources: {}
+status: {}
